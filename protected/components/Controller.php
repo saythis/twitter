@@ -53,7 +53,7 @@ class Controller extends CController
 
     protected function notificateadmin($entity_type,$entity_id=0)
     {
-        if(!Yii::app()->params->sendNoteToAdmin) return false;
+        if(!Yii::app()->params['sendNoteToAdmin']) return false;
 
         $message='';
         switch($entity_type)
