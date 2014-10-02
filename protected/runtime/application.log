@@ -1,0 +1,2663 @@
+2014/10/02 15:40:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "LoginForm.email".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/web/helpers/CHtml.php(2529): CComponent->__get('email')
+#1 /private/var/www/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 /private/var/www/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 /private/var/www/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 /private/var/www/twitter/protected/views/users/login.php(26): CActiveForm->textField(Object(LoginForm), 'email', Array)
+#5 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#6 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#7 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#8 /private/var/www/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /private/var/www/twitter/protected/controllers/UsersController.php(61): CController->render('login', Array)
+#10 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionLogin()
+#11 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#18 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /private/var/www/framework/web/CWebApplication.php(282): CController->run('login')
+#20 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/login')
+#21 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /private/var/www/twitter/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/users/login
+---
+2014/10/02 15:44:00 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "LoginForm.email".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/web/helpers/CHtml.php(2529): CComponent->__get('email')
+#1 /private/var/www/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 /private/var/www/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 /private/var/www/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 /private/var/www/twitter/protected/views/users/login.php(26): CActiveForm->textField(Object(LoginForm), 'email', Array)
+#5 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#6 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#7 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#8 /private/var/www/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /private/var/www/twitter/protected/controllers/UsersController.php(61): CController->render('login', Array)
+#10 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionLogin()
+#11 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#18 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /private/var/www/framework/web/CWebApplication.php(282): CController->run('login')
+#20 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/login')
+#21 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /private/var/www/twitter/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/users/login
+---
+2014/10/02 15:45:38 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "LoginForm.email".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/web/helpers/CHtml.php(2529): CComponent->__get('email')
+#1 /private/var/www/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 /private/var/www/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 /private/var/www/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 /private/var/www/twitter/protected/views/users/login.php(26): CActiveForm->textField(Object(LoginForm), 'email', Array)
+#5 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#6 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#7 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#8 /private/var/www/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /private/var/www/twitter/protected/controllers/UsersController.php(61): CController->render('login', Array)
+#10 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionLogin()
+#11 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#18 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /private/var/www/framework/web/CWebApplication.php(282): CController->run('login')
+#20 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/login')
+#21 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /private/var/www/twitter/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/users/login
+---
+2014/10/02 15:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "recovery".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('recovery')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recovery
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 15:50:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "recovery".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('recovery')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recovery
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 15:50:52 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.referral".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('referral')
+#1 /private/var/www/twitter/protected/views/users/register.php(48): CActiveRecord->__get('referral')
+#2 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#3 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#4 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(782): CController->renderPartial('register', Array, true)
+#6 /private/var/www/twitter/protected/controllers/UsersController.php(169): CController->render('register', Array)
+#7 [internal function]: UsersController->actionRegister(NULL)
+#8 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#10 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#17 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /private/var/www/framework/web/CWebApplication.php(282): CController->run('register')
+#19 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/register')
+#20 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /private/var/www/twitter/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/users/register
+---
+2014/10/02 15:51:55 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.referral".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('referral')
+#1 /private/var/www/twitter/protected/views/users/register.php(48): CActiveRecord->__get('referral')
+#2 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#3 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#4 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(782): CController->renderPartial('register', Array, true)
+#6 /private/var/www/twitter/protected/controllers/UsersController.php(157): CController->render('register', Array)
+#7 [internal function]: UsersController->actionRegister(NULL)
+#8 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#10 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#17 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /private/var/www/framework/web/CWebApplication.php(282): CController->run('register')
+#19 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/register')
+#20 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /private/var/www/twitter/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/users/register
+---
+2014/10/02 16:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:06:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/index.php/users/login
+---
+2014/10/02 16:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/index.php/users/register
+---
+2014/10/02 16:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/index.php/users/login
+---
+2014/10/02 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/index.php/users/register
+---
+2014/10/02 16:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/index.php/users/register
+---
+2014/10/02 16:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 16:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "lits/index".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/10/02 16:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "lits".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/lits
+---
+2014/10/02 16:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "lits/index".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/10/02 16:33:43 [error] [php] Declaration of LitsController::performAjaxValidation() should be compatible with Controller::performAjaxValidation($model, $form) (/private/var/www/twitter/protected/controllers/LitsController.php:4)
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /private/var/www/twitter/protected/controllers/LitsController.php (4)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 16:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:49:11 [error] [php] include(User.php): failed to open stream: No such file or directory (/private/var/www/framework/YiiBase.php:427)
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(395): spl_autoload_call()
+#1 /private/var/www/framework/db/ar/CActiveFinder.php(182): model()
+#2 /private/var/www/framework/db/ar/CActiveFinder.php(230): CActiveFinder->getModel()
+#3 /private/var/www/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 /private/var/www/framework/db/ar/CActiveRecord.php(909): CActiveFinder->__construct()
+#5 /private/var/www/framework/db/ar/CActiveRecord.php(280): Lits->getActiveFinder()
+#6 /private/var/www/framework/db/ar/CActiveRecord.php(143): Lits->getRelated()
+#7 /private/var/www/twitter/protected/views/lits/_view.php(10): Lits->__get()
+#8 /private/var/www/framework/web/CBaseController.php(130): require()
+#9 /private/var/www/framework/web/CBaseController.php(95): LitsController->renderInternal()
+#10 /private/var/www/framework/zii/widgets/CListView.php(291): LitsController->renderFile()
+#11 /private/var/www/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#12 unknown(0): CListView->renderSection()
+#13 /private/var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#14 /private/var/www/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#15 /private/var/www/framework/web/CBaseController.php(173): CListView->run()
+#16 /private/var/www/twitter/protected/views/lits/index.php(18): LitsController->widget()
+#17 /private/var/www/framework/web/CBaseController.php(126): require()
+#18 /private/var/www/framework/web/CBaseController.php(95): LitsController->renderInternal()
+#19 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#20 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#21 /private/var/www/twitter/protected/controllers/LitsController.php(136): LitsController->render()
+#22 /private/var/www/framework/web/actions/CInlineAction.php(49): LitsController->actionIndex()
+#23 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#24 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#25 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#26 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#27 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#28 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#29 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#30 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#31 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#32 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#33 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#34 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /private/var/www/twitter/protected/views/lits/_view.php (10)
+in /private/var/www/twitter/protected/views/lits/index.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (136)
+2014/10/02 16:49:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.user_id' in 'where clause'. Выполнявшийся SQL-запрос: SELECT `user`.`id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`name` AS `t1_c3`, `user`.`created` AS `t1_c4` FROM `users` `user`  WHERE (`user`.`user_id`=:ypl0). Bound with :ypl0='1'.
+in /private/var/www/twitter/protected/views/lits/_view.php (10)
+in /private/var/www/twitter/protected/views/lits/index.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (136)
+2014/10/02 16:49:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.user_id' in 'where clause'. The SQL statement executed was: SELECT `user`.`id` AS `t1_c0`, `user`.`email` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`name` AS `t1_c3`, `user`.`created` AS `t1_c4` FROM `users` `user`  WHERE (`user`.`user_id`=:ypl0). Bound with :ypl0='1'' in /private/var/www/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /private/var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /private/var/www/framework/db/ar/CActiveFinder.php(803): CDbCommand->queryAll()
+#2 /private/var/www/framework/db/ar/CActiveFinder.php(507): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /private/var/www/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(Lits))
+#4 /private/var/www/framework/db/ar/CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Lits))
+#5 /private/var/www/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('user')
+#6 /private/var/www/twitter/protected/views/lits/_view.php(10): CActiveRecord->__get('user')
+#7 /private/var/www/framework/web/CBaseController.php(130): require('/private/var/ww...')
+#8 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, false)
+#9 /private/var/www/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/private/var/ww...', Array)
+#10 /private/var/www/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /private/var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#13 /private/var/www/framework/zii/widgets/CBaseListView.php(135): CBaseListView->renderContent()
+#14 /private/var/www/framework/web/CBaseController.php(173): CBaseListView->run()
+#15 /private/var/www/twitter/protected/views/lits/index.php(18): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#17 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#18 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#19 /private/var/www/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#20 /private/var/www/twitter/protected/controllers/LitsController.php(136): CController->render('index', Array)
+#21 /private/var/www/framework/web/actions/CInlineAction.php(49): LitsController->actionIndex()
+#22 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#29 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /private/var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#31 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#32 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#33 /private/var/www/twitter/index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://twitter/gii/default/index
+---
+2014/10/02 16:49:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 16:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 16:58:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 16:58:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 16:58:56 [error] [exception.CException] exception 'CException' with message 'Контроллер LitsController не может найти представление "user".' in /private/var/www/framework/web/CController.php:878
+Stack trace:
+#0 /private/var/www/framework/web/CController.php(782): CController->renderPartial('user', Array, true)
+#1 /private/var/www/twitter/protected/controllers/LitsController.php(74): CController->render('user', Array)
+#2 [internal function]: LitsController->actionUser('1')
+#3 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#4 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#5 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#14 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#15 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /private/var/www/twitter/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lits/user/1
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 16:59:32 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by id desc LIMIT 10' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `lits` `t` WHERE user_id=:user_id ORDER BY by id desc LIMIT 10. Bound with :user_id='1'.
+in /private/var/www/twitter/protected/views/lits/user.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (74)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 16:59:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by id desc LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `lits` `t` WHERE user_id=:user_id ORDER BY by id desc LIMIT 10. Bound with :user_id='1'' in /private/var/www/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /private/var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /private/var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /private/var/www/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /private/var/www/framework/web/CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /private/var/www/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#5 /private/var/www/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#6 /private/var/www/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#7 /private/var/www/framework/web/CBaseController.php(147): CListView->init()
+#8 /private/var/www/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 /private/var/www/twitter/protected/views/lits/user.php(18): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#11 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#12 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#13 /private/var/www/framework/web/CController.php(782): CController->renderPartial('user', Array, true)
+#14 /private/var/www/twitter/protected/controllers/LitsController.php(74): CController->render('user', Array)
+#15 [internal function]: LitsController->actionUser('1')
+#16 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#17 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#18 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#19 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#25 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#27 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#28 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#29 /private/var/www/twitter/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/lits/user/1
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 16:59:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by id desc LIMIT 10' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `lits` `t` WHERE user_id=:user_id ORDER BY by id desc LIMIT 10. Bound with :user_id='1'.
+in /private/var/www/twitter/protected/views/lits/user.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (74)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 16:59:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by id desc LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `lits` `t` WHERE user_id=:user_id ORDER BY by id desc LIMIT 10. Bound with :user_id='1'' in /private/var/www/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /private/var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /private/var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /private/var/www/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /private/var/www/framework/web/CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /private/var/www/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#5 /private/var/www/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#6 /private/var/www/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#7 /private/var/www/framework/web/CBaseController.php(147): CListView->init()
+#8 /private/var/www/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 /private/var/www/twitter/protected/views/lits/user.php(18): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#11 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#12 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#13 /private/var/www/framework/web/CController.php(782): CController->renderPartial('user', Array, true)
+#14 /private/var/www/twitter/protected/controllers/LitsController.php(74): CController->render('user', Array)
+#15 [internal function]: LitsController->actionUser('1')
+#16 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#17 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#18 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#19 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#25 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#27 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#28 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#29 /private/var/www/twitter/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/lits/user/1
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 17:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:01:43 [error] [php] Undefined variable: user (/private/var/www/twitter/protected/views/lits/user.php:12)
+Stack trace:
+#0 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#1 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#2 /private/var/www/twitter/protected/controllers/LitsController.php(74): LitsController->render()
+#3 unknown(0): LitsController->actionUser()
+#4 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /private/var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#8 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#11 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#14 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#15 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/lits/user/1
+in /private/var/www/twitter/protected/views/lits/user.php (12)
+in /private/var/www/twitter/protected/controllers/LitsController.php (74)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 17:03:26 [error] [php] Undefined variable: user (/private/var/www/twitter/protected/views/lits/user.php:12)
+Stack trace:
+#0 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#1 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#2 /private/var/www/twitter/protected/controllers/LitsController.php(78): LitsController->render()
+#3 unknown(0): LitsController->actionUser()
+#4 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /private/var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#8 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#11 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#14 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#15 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/lits/user/1
+in /private/var/www/twitter/protected/views/lits/user.php (12)
+in /private/var/www/twitter/protected/controllers/LitsController.php (78)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 17:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:04:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 17:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 17:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 17:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 17:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 17:08:20 [error] [exception.CException] exception 'CException' with message 'В классе WebUser и его поведениях не найден метод или замыкание с именем "isGuest".' in /private/var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /private/var/www/twitter/protected/controllers/LitsController.php(61): CComponent->__call('isGuest', Array)
+#1 /private/var/www/twitter/protected/controllers/LitsController.php(61): WebUser->isGuest()
+#2 [internal function]: LitsController->actionUser(NULL)
+#3 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#4 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#5 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#14 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#15 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /private/var/www/twitter/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lits/user
+---
+2014/10/02 17:08:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Unknown user' in /private/var/www/twitter/protected/controllers/LitsController.php:68
+Stack trace:
+#0 [internal function]: LitsController->actionUser(NULL)
+#1 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#2 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#3 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#10 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#12 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#13 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /private/var/www/twitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lits/user
+---
+2014/10/02 17:08:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Unknown user' in /private/var/www/twitter/protected/controllers/LitsController.php:68
+Stack trace:
+#0 [internal function]: LitsController->actionUser(NULL)
+#1 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#2 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#3 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#10 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#12 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#13 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /private/var/www/twitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lits/user
+---
+2014/10/02 17:09:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Unknown user' in /private/var/www/twitter/protected/controllers/LitsController.php:68
+Stack trace:
+#0 [internal function]: LitsController->actionUser(NULL)
+#1 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#2 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#3 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#10 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /private/var/www/framework/web/CWebApplication.php(282): CController->run('user')
+#12 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/user')
+#13 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /private/var/www/twitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lits/user
+---
+2014/10/02 17:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 17:12:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 17:12:08 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('username')
+#2 /private/var/www/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Users), 'username')
+#3 /private/var/www/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /private/var/www/framework/web/widgets/CActiveForm.php(920): CModel->validate(NULL)
+#5 /private/var/www/twitter/protected/controllers/UsersController.php(220): CActiveForm::validate(Object(Users))
+#6 /private/var/www/twitter/protected/controllers/UsersController.php(136): UsersController->performAjaxValidation(Object(Users), 'register-form')
+#7 [internal function]: UsersController->actionRegister(NULL)
+#8 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#10 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#17 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /private/var/www/framework/web/CWebApplication.php(282): CController->run('register')
+#19 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/register')
+#20 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /private/var/www/twitter/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/users/register
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 17:12:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('username')
+#2 /private/var/www/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Users), 'username')
+#3 /private/var/www/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /private/var/www/framework/web/widgets/CActiveForm.php(920): CModel->validate(NULL)
+#5 /private/var/www/twitter/protected/controllers/UsersController.php(220): CActiveForm::validate(Object(Users))
+#6 /private/var/www/twitter/protected/controllers/UsersController.php(136): UsersController->performAjaxValidation(Object(Users), 'register-form')
+#7 [internal function]: UsersController->actionRegister(NULL)
+#8 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#10 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#17 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /private/var/www/framework/web/CWebApplication.php(282): CController->run('register')
+#19 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/register')
+#20 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /private/var/www/twitter/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/users/register
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 17:12:16 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('username')
+#2 /private/var/www/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Users), 'username')
+#3 /private/var/www/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /private/var/www/framework/web/widgets/CActiveForm.php(920): CModel->validate(NULL)
+#5 /private/var/www/twitter/protected/controllers/UsersController.php(220): CActiveForm::validate(Object(Users))
+#6 /private/var/www/twitter/protected/controllers/UsersController.php(136): UsersController->performAjaxValidation(Object(Users), 'register-form')
+#7 [internal function]: UsersController->actionRegister(NULL)
+#8 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#10 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#17 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /private/var/www/framework/web/CWebApplication.php(282): CController->run('register')
+#19 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/register')
+#20 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /private/var/www/twitter/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/users/register
+HTTP_REFERER=http://twitter/users/register
+---
+2014/10/02 17:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 17:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 17:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:13:21 [error] [php] Undefined variable: model (/private/var/www/twitter/protected/views/lits/user.php:16)
+Stack trace:
+#0 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#1 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#2 /private/var/www/twitter/protected/controllers/LitsController.php(81): LitsController->render()
+#3 unknown(0): LitsController->actionUser()
+#4 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /private/var/www/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#8 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#11 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#14 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#15 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/lits/user
+in /private/var/www/twitter/protected/views/lits/user.php (16)
+in /private/var/www/twitter/protected/controllers/LitsController.php (81)
+in /private/var/www/twitter/index.php (13)
+2014/10/02 17:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/
+---
+2014/10/02 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/
+---
+2014/10/02 17:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/
+---
+2014/10/02 17:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/
+---
+2014/10/02 17:47:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/
+---
+2014/10/02 17:47:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:53:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 17:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 17:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:12:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /private/var/www/framework/web/CController.php:1118
+Stack trace:
+#0 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#7 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /private/var/www/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/delete')
+#10 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /private/var/www/twitter/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/lits/delete/7
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/delete/7
+---
+2014/10/02 18:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:15:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /private/var/www/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /private/var/www/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 /private/var/www/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /private/var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/admin')
+#9 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /private/var/www/twitter/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/lits/admin
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /private/var/www/twitter/protected/controllers/LitsController.php:201
+Stack trace:
+#0 /private/var/www/twitter/protected/controllers/LitsController.php(152): LitsController->loadModel('7')
+#1 [internal function]: LitsController->actionDelete('7')
+#2 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#3 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#4 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /private/var/www/framework/web/CController.php(1116): CFilterChain->run()
+#7 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#14 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /private/var/www/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/delete')
+#17 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /private/var/www/twitter/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/lits/delete/7
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:16:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /private/var/www/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /private/var/www/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 /private/var/www/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /private/var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/admin')
+#9 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /private/var/www/twitter/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/lits/admin
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:01 [error] [exception.CException] exception 'CException' with message 'В классе CHttpRequest и его поведениях не найден метод или замыкание с именем "isAjaxRequest".' in /private/var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /private/var/www/twitter/protected/controllers/LitsController.php(159): CComponent->__call('isAjaxRequest', Array)
+#1 /private/var/www/twitter/protected/controllers/LitsController.php(159): CHttpRequest->isAjaxRequest()
+#2 [internal function]: LitsController->actionDelete('6')
+#3 /private/var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LitsController), Array)
+#4 /private/var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LitsController), Object(ReflectionMethod), Array)
+#5 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /private/var/www/framework/web/CController.php(1116): CFilterChain->run()
+#8 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#9 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#15 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /private/var/www/framework/web/CWebApplication.php(282): CController->run('delete')
+#17 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/delete')
+#18 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /private/var/www/twitter/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/lits/delete/6
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:19:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:19:37 [error] [php] Trying to get property of non-object (/private/var/www/twitter/protected/views/lits/_view.php:10)
+Stack trace:
+#0 /private/var/www/framework/zii/widgets/CListView.php(291): LitsController->renderFile()
+#1 /private/var/www/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 /private/var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#4 /private/var/www/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#5 /private/var/www/framework/web/CBaseController.php(173): CListView->run()
+#6 /private/var/www/twitter/protected/views/lits/index.php(18): LitsController->widget()
+#7 /private/var/www/framework/web/CBaseController.php(126): require()
+#8 /private/var/www/framework/web/CBaseController.php(95): LitsController->renderInternal()
+#9 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#10 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#11 /private/var/www/twitter/protected/controllers/LitsController.php(173): LitsController->render()
+#12 /private/var/www/framework/web/actions/CInlineAction.php(49): LitsController->actionIndex()
+#13 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#15 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#18 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#20 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#21 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#22 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /private/var/www/twitter/protected/views/lits/_view.php (10)
+in /private/var/www/twitter/protected/views/lits/index.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (173)
+2014/10/02 18:19:48 [error] [php] Trying to get property of non-object (/private/var/www/twitter/protected/views/lits/_view.php:10)
+Stack trace:
+#0 /private/var/www/framework/zii/widgets/CListView.php(291): LitsController->renderFile()
+#1 /private/var/www/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 /private/var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback()
+#4 /private/var/www/framework/zii/widgets/CBaseListView.php(135): CListView->renderContent()
+#5 /private/var/www/framework/web/CBaseController.php(173): CListView->run()
+#6 /private/var/www/twitter/protected/views/lits/index.php(18): LitsController->widget()
+#7 /private/var/www/framework/web/CBaseController.php(126): require()
+#8 /private/var/www/framework/web/CBaseController.php(95): LitsController->renderInternal()
+#9 /private/var/www/framework/web/CController.php(869): LitsController->renderFile()
+#10 /private/var/www/framework/web/CController.php(782): LitsController->renderPartial()
+#11 /private/var/www/twitter/protected/controllers/LitsController.php(173): LitsController->render()
+#12 /private/var/www/framework/web/actions/CInlineAction.php(49): LitsController->actionIndex()
+#13 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /private/var/www/framework/web/filters/CFilterChain.php(133): LitsController->runAction()
+#15 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /private/var/www/framework/web/filters/CInlineFilter.php(58): LitsController->filterAccessControl()
+#18 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#20 /private/var/www/framework/web/CController.php(265): LitsController->runActionWithFilters()
+#21 /private/var/www/framework/web/CWebApplication.php(282): LitsController->run()
+#22 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /private/var/www/twitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /private/var/www/twitter/protected/views/lits/_view.php (10)
+in /private/var/www/twitter/protected/views/lits/index.php (18)
+in /private/var/www/twitter/protected/controllers/LitsController.php (173)
+2014/10/02 18:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:20:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:21:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "fields".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('fields')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fields
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/fields
+---
+2014/10/02 18:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:22:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 18:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:23:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:23:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:25:01 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CActiveDataProvider.order".' in /private/var/www/framework/base/CComponent.php:173
+Stack trace:
+#0 /private/var/www/framework/web/CActiveDataProvider.php(96): CComponent->__set('order', 'id desc')
+#1 /private/var/www/twitter/protected/controllers/LitsController.php(172): CActiveDataProvider->__construct('Lits', Array)
+#2 /private/var/www/framework/web/actions/CInlineAction.php(49): LitsController->actionIndex()
+#3 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#10 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /private/var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/index')
+#13 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /private/var/www/twitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lits/index
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:28:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/twitter/protected/models/Users.php(177): CActiveRecord->__get('username')
+#2 /private/var/www/twitter/protected/views/users/settings.php(19): Users->checkUsername()
+#3 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#4 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#6 /private/var/www/framework/web/CController.php(782): CController->renderPartial('settings', Array, true)
+#7 /private/var/www/twitter/protected/controllers/UsersController.php(184): CController->render('settings', Array)
+#8 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionSettings()
+#9 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /private/var/www/framework/web/CWebApplication.php(282): CController->run('settings')
+#18 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/settings')
+#19 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /private/var/www/twitter/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/users/settings
+---
+2014/10/02 18:28:48 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/twitter/protected/models/Users.php(177): CActiveRecord->__get('username')
+#2 /private/var/www/twitter/protected/views/users/settings.php(19): Users->checkUsername()
+#3 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#4 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#6 /private/var/www/framework/web/CController.php(782): CController->renderPartial('settings', Array, true)
+#7 /private/var/www/twitter/protected/controllers/UsersController.php(184): CController->render('settings', Array)
+#8 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionSettings()
+#9 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /private/var/www/framework/web/CWebApplication.php(282): CController->run('settings')
+#18 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/settings')
+#19 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /private/var/www/twitter/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/users/settings
+---
+2014/10/02 18:28:51 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/twitter/protected/models/Users.php(177): CActiveRecord->__get('username')
+#2 /private/var/www/twitter/protected/views/users/settings.php(19): Users->checkUsername()
+#3 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#4 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#6 /private/var/www/framework/web/CController.php(782): CController->renderPartial('settings', Array, true)
+#7 /private/var/www/twitter/protected/controllers/UsersController.php(184): CController->render('settings', Array)
+#8 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionSettings()
+#9 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /private/var/www/framework/web/CWebApplication.php(282): CController->run('settings')
+#18 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/settings')
+#19 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /private/var/www/twitter/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/users/settings
+---
+2014/10/02 18:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:28:55 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/twitter/protected/models/Users.php(177): CActiveRecord->__get('username')
+#2 /private/var/www/twitter/protected/views/users/settings.php(19): Users->checkUsername()
+#3 /private/var/www/framework/web/CBaseController.php(126): require('/private/var/ww...')
+#4 /private/var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/private/var/ww...', Array, true)
+#5 /private/var/www/framework/web/CController.php(869): CBaseController->renderFile('/private/var/ww...', Array, true)
+#6 /private/var/www/framework/web/CController.php(782): CController->renderPartial('settings', Array, true)
+#7 /private/var/www/twitter/protected/controllers/UsersController.php(184): CController->render('settings', Array)
+#8 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionSettings()
+#9 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#16 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /private/var/www/framework/web/CWebApplication.php(282): CController->run('settings')
+#18 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/settings')
+#19 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /private/var/www/twitter/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/users/settings
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:29:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Users.username".' in /private/var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /private/var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /private/var/www/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('username')
+#2 /private/var/www/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(Users), 'username')
+#3 /private/var/www/framework/base/CModel.php(159): CValidator->validate(Object(Users), Array)
+#4 /private/var/www/twitter/protected/controllers/UsersController.php(170): CModel->validate(Array)
+#5 /private/var/www/framework/web/actions/CInlineAction.php(49): UsersController->actionSettings()
+#6 /private/var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /private/var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /private/var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#13 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /private/var/www/framework/web/CWebApplication.php(282): CController->run('settings')
+#15 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('users/settings')
+#16 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /private/var/www/twitter/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/users/settings
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:29:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/site/index
+---
+2014/10/02 18:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:44:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/update/11
+---
+2014/10/02 18:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/update/11
+---
+2014/10/02 18:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/update/11
+---
+2014/10/02 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:45:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/11
+---
+2014/10/02 18:45:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in /private/var/www/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /private/var/www/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 /private/var/www/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /private/var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /private/var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /private/var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /private/var/www/framework/web/CController.php(291): CFilterChain->run()
+#6 /private/var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /private/var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('lits/admin')
+#9 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /private/var/www/twitter/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/lits/admin
+HTTP_REFERER=http://twitter/lits/11
+---
+2014/10/02 18:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/admin
+---
+2014/10/02 18:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/11
+---
+2014/10/02 18:45:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/1
+---
+2014/10/02 18:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user/2
+---
+2014/10/02 18:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/recovery
+---
+2014/10/02 18:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/recovery
+---
+2014/10/02 18:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/
+---
+2014/10/02 18:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:47:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/login
+---
+2014/10/02 18:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 18:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/user
+---
+2014/10/02 18:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/lits/index
+---
+2014/10/02 18:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/app.js".' in /private/var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /private/var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 /private/var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /private/var/www/twitter/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://twitter/users/settings
+---
+2014/10/02 15:10:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:13:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:14:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:15:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:16:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:19:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No such file or directory' in /private/var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /private/var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /private/var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /private/var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /private/var/www/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /private/var/www/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /private/var/www/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /private/var/www/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /private/var/www/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /private/var/www/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /private/var/www/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /private/var/www/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /private/var/www/framework/yiic.php(33): CApplication->run()
+#13 /private/var/www/twitter/protected/yiic.php(7): require_once('/private/var/ww...')
+#14 /private/var/www/twitter/protected/yiic(4): require_once('/private/var/ww...')
+#15 {main}
+---
+2014/10/02 15:20:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'twitter.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
